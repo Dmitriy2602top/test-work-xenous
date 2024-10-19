@@ -20,7 +20,7 @@ const config = {
     },
 
     /** Enables hot reloading for local packages without a build step */
-    transpilePackages: ['@xenous/api', '@xenous/auth', '@xenous/db', '@xenous/http', '@xenous/ui', '@xenous/schema'],
+    transpilePackages: ['@xenous/api', '@xenous/http', '@xenous/ui', '@xenous/schema'],
 
     /** We already do linting and typechecking as separate tasks in CI */
     eslint: { ignoreDuringBuilds: true },
